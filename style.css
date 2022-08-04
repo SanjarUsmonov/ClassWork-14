@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1519px;
+}
+.hero{
+    width: 1519px ;
+    height: 420px;
+    background-image: url(Rectangle\ 37.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 1519px 420px;
+ 
+}
+.site-nav{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.site-nav img{
+    width: 35px;
+    height: 35px;
+}
+.site-nav__box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.site-nav__link{
+    display: flex;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration:none ;
+    margin: 0 12px;
+}
+span{
+    height: 30px;
+    border: 1px solid #fff;
+}
+.hero__body{
+    width: 900px;
+    margin: 0 auto;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.hero__content{
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+    flex-direction: column;
+}
+.hero__text{
+    font-size: 65px;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 60px;
+    margin-top: -90px;
+}
+.hero__button{
+    font-size: 15px;
+    color: #fff;
+    background-color: #00FF75;
+    border: 3px solid #00FF75;
+    border-radius: 10px;
+    width: 125px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero__button:hover{
+    width: 170px;
+    transition: 0.5s;
+    background-color: #4375ab;
+    border: 5px solid #4375ab;
+}
+
